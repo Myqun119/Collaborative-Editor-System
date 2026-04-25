@@ -1,0 +1,44 @@
+# 依赖文件夹
+node_modules/
+vendor/
+packages/
+
+# 编译输出
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+
+# IDE 配置（保留必要的）
+.vscode/
+.idea/
+*.suo
+*.user
+
+# 环境变量和密钥
+.env
+.env.local
+*.key
+*.pem
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Python 相关（如果使用 Python）
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+# Node.js 相关
+package-lock.json
+yarn.lock
